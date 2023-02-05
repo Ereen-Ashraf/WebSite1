@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' ,sans-serif;
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 150px;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(43, 43, 84);
+    font-weight: bold;
+    font-size:2.3em;
+}
+.navigation a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.4em;
+    padding-left: 10px;
+    color: rgb(43, 43, 84);
+}
+.navigation a:hover{
+    color: rgb(71, 23, 84);  
+}
+
+
+section{
+    padding: 80px 150px;
+}
+.sec_1{
+    background-color: rgb(132, 88, 88);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: rgb(43, 43, 84);
+}
+.sec_1 h2{
+    font-size: 1.6em;
+}
+.sec_1 span{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 1.8em;
+    color: rgb(227, 220, 220);
+}
+.sec_1 h3{
+    font-size: 1.8em;
+    margin-top: 15px;
+}
+.sec_1 .btn_1{
+    background-color: rgb(43, 43, 84);
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 1.2em;
+    padding:8px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.sec_1 a{
+    color:white;
+}
+
+.sec_1 .icons{
+    margin-top: 30px;
+}
+.icons a{
+    color: rgb(237, 233, 233);
+    font-size: 1.4em;
+    padding-right: 17px;
+}
+
+.sec_2 h2,
+.sec_3 h2,
+.sec_4 h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(43, 43, 84);
+    font-weight: bold;
+    font-size:2.2em;
+    margin-bottom: 50px;
+}
+
+.sec_3 h2{
+    color: rgb(43, 43, 84);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.card{
+    width: 15em;
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(1 1 1 / 15%);
+    padding: 25px;
+    margin: 15px;
+    border-radius: 15px;
+    transition: .7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: rgb(43, 43, 84);
+    font-size:4em;
+    text-align: center;
+}
+.sec_2 .info,
+.sec_4 .info{
+    text-align: center;
+}
+.info h3{
+    color: rgb(43, 43, 84);
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.sec_3{
+    background-color: rgb(132, 88, 88);
+
+}
+
+.sec_3 h2{
+    color: rgb(43, 43, 84);
+}
+
+.sec_3 .card{
+    width: 15em;
+    padding: 7px;
+    border-radius: 10px;
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.sec_3 p{
+    margin: 15px 15px 2px;
+    letter-spacing: 3px;
+    font-size: 1.1em;
+}
+.sec_3 .desc{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 20px;
+    font-size: 1em;
+    letter-spacing: -1px;
+
+}
+
+
+.sec_3 span{
+    font-weight: bold;
+}
+.sec_3 a{
+text-decoration: none;
+font-weight: bold;
+color: rgb(43, 43, 84);
+}
+.sec_3 a:hover{
+    color: rgb(71, 23, 84);  
+}
+
+.sec_4 h3{
+    font-size: 1.3em;
+}
+
+.sec_4 .info{
+padding-bottom: 30px;
+padding-top: 20px;
+letter-spacing: 2px;
+}
+.sec_4 a{
+    color: rgb(43, 43, 84);
+
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(132, 88, 88);
+    color:white;
+    padding:1.1em 2em;
+    font-weight: 600;
+    letter-spacing:1px;
+    font-size: 1.3em;
+}
+.foot span
+{
+    color: rgb(43, 43, 84);
+}
+
+.foot .icons a{
+    color: rgb(237, 233, 233);
+    font-size: 1.1em;
+    padding-right: 10px;
+}
+
+
+
+
+@media (max-width:768px) {
+    header{
+        padding: 12px 8px;
+    }
+    .logo{
+        font-size:1.2em;
+    }
+    .navigation a{
+        font-size:.9em;
+        padding-left:3px;
+    }
+    section{
+        padding: 90px 20px;
+    }
+
+    .sec_1{
+        min-height: 60vh;
+    }
+    .sec_1 h2{
+    font-size: 1.3em;
+   }
+    .sec_1 span{
+        font-size: 1.1em;
+    }
+    .sec_1 h3{
+        font-size: 1.2em;
+    }
+    
+    .sec_1 .btn_1{
+       font-size: 1em;
+       padding:7px 25px;
+       border-radius: 10px;
+    }
+    .sec_1 .icons{
+        margin-top: 30px;
+    }
+   .icons a{
+      font-size: 1.2em;
+      padding-right: 17px;
+    }
+
+
+    .sec_2 h2,
+    .sec_3 h2,
+    .sec_4 h2{
+        font-size: 1.4em;
+    }
+
+
+    .card{
+    width: 12em;
+    padding: 15px;
+  }
+
+  .icon{
+    font-size:3em;
+  }
+
+  .info h3{
+    font-size: .9em;
+   }
+  .info p{
+    font-size: .9em;
+   }
+
+.sec_3 .card{
+    width: 12em;
+}
+
+.sec_3 p{
+    letter-spacing: 2px;
+    font-size: .9em;
+}
+.sec_3 .desc{
+    padding: 5px 5px 20px;
+    font-size: .9em;
+    letter-spacing: -1px;
+}
+
+
+
+    .foot{
+        padding:.4em .1em;
+        letter-spacing:0px;
+        font-size: .8em;
+    }
+
+    .foot p,
+    .foot .icons{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .foot .icons a{
+        padding-right: 3px;
+    }     
+}
+
+
+
+@media (min-width:481px) and (max-width:768px) {
+    .logo{
+        font-size:1.3em;
+    }
+    .navigation a{
+        font-size:1em;
+    }
+    
+    .foot{
+        padding:.6em .2em;
+        letter-spacing:0px;
+        font-size: .9em;
+    }
+
+    .foot .icons a{
+        padding-right: 4px;
+    }     
+}
+
+
+@media (min-width:769px) and (max-width:1024px) {
+    header{
+        padding: 12px 20px;
+    }
+    section{
+        padding: 90px 50px;
+    }
+
+    .foot{
+        padding:1.1em 1.1em;
+        font-size: 1.3em;
+    }
+
+    .foot .icons a{
+        padding-right: 7px;
+    }
+
+
+}
